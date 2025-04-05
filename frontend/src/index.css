@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+#root{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+    @keyframes rgb-glow-red {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 0.4; }
+    }
+    @keyframes rgb-glow-green {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.8; }
+    }
+    @keyframes rgb-glow-blue {
+      0% { opacity: 0.4; }
+      50% { opacity: 0.4; }
+      100% { opacity: 0.8; }
+    }
+    .animate-rgb-glow-red {
+      animation: rgb-glow-red 3s ease-in-out infinite;
+    }
+    .animate-rgb-glow-green {
+      animation: rgb-glow-green 3s ease-in-out infinite;
+      animation-delay: 0.5s;
+    }
+    .animate-rgb-glow-blue {
+      animation: rgb-glow-blue 3s ease-in-out infinite;
+      animation-delay: 1s;
+    }
