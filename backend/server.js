@@ -18,6 +18,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: "https://trendora-eta9.vercel.app",
+    credentials: true,
   })
 );
 
