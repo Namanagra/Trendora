@@ -18,7 +18,8 @@ app.use(express.json());
 app.use(
   cors({
     origin: ["http://localhost:5173",
-      "https://trendora-yjga.vercel.app/",],
+      "https://trendora-yjga.vercel.app",
+      "https://trendora-yjga-8vatx0vy5-naman-agrawals-projects-190ac8c3.vercel.app",],
     credentials: true,
   })
 );
