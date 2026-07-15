@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(
   cors({
     origin: ["http://localhost:5173",
-      "https://trendora-eta9.vercel.app",],
+      "https://trendora-yjga.vercel.app/",],
     credentials: true,
   })
 );
